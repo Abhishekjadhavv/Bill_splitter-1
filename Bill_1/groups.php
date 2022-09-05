@@ -119,5 +119,6 @@
    <script src="js/home.js"></script>
    <script src="js/group.js"></script>
    <script src="js/amount.js"></script>
+   <script src="js/delete_group.js"></script>
 </body>
 </html>

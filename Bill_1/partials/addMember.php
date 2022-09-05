@@ -1,10 +1,12 @@
 <?php
+session_start();
    if($_SERVER["REQUEST_METHOD"]=="POST")
    {
        include "_dbconnect.php";
 
        $groupName = $_GET['groupName'];
        $ids = explode(',',$_GET['id']);
+       array_unshift($ids,$_SESSION['username']);
 
        foreach ($ids as $value) {
         $sql = "SELECT * FROM `group` WHERE `group_name`='$groupName' and `added_user_id` = '$value'";

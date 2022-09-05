@@ -20,7 +20,7 @@
      <!-- ----- header end here --- -->
      <main class="main">
           <div class="note">
-             <span>Note : You can only add people who have already signed up here and<br/>make sure your name is selected.</span>
+             <span>Note : You can only add people who have already signed up here<br/>first search people and create your group.</span>
           </div>
           <div class="search">
                  <form action="#" id="form">
